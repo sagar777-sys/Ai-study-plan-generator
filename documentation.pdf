@@ -1,0 +1,573 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R] /Count 8 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Italic /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Length 5202 >>
+stream
+bg 0.973 0.949 0.890 rg 0 0 595.28 841.89 re f
+BT 0.427 0.365 0.271 rg /F4 8.5 Tf 1 0 0 1 58.00 765.89 Tm (DOCUMENTATION - VERSION 1.0) Tj ET
+BT 0.200 0.153 0.102 rg /F2 30 Tf 1 0 0 1 58.00 721.89 Tm (The Study Almanac) Tj ET
+0.847 0.780 0.647 RG 1.1 lw 58 708.29 537.28 708.29 m S
+0.847 0.780 0.647 RG 0.6 lw 58 705.89 537.28 705.89 m S
+BT 0.427 0.365 0.271 rg /F3 13 Tf 1 0 0 1 58.00 678.19 Tm (A web application that generates personalized AI study plans using fuzzy-logic) Tj ET
+BT 0.427 0.365 0.271 rg /F3 13 Tf 1 0 0 1 58.00 659.34 Tm (reasoning and large language models - wrapped in a vintage archival interface.) Tj ET
+BT 0.427 0.365 0.271 rg /F4 8.5 Tf 1 0 0 1 58.00 634.54 Tm (STACK: REACT 19 / VITE / TYPESCRIPT / TAILWIND CSS 4 / CONVEX \(DB + AUTH + ACTIONS\) / BUN) Tj ET
+BT 0.427 0.365 0.271 rg /F4 8.5 Tf 1 0 0 1 58.00 622.21 Tm (SEPTEMBER 2026) Tj ET
+0.541 0.200 0.141 RG 1.2 lw 58.00 591.54 98.50 19.00 re S
+BT 0.541 0.200 0.141 rg /F4 8.5 Tf 1 0 0 1 69.00 597.54 Tm (VINTAGE EDITION) Tj ET
+0.847 0.780 0.647 RG 1.1 lw 58 583.94 537.28 583.94 m S
+0.847 0.780 0.647 RG 0.6 lw 58 581.54 537.28 581.54 m S
+0.847 0.780 0.647 RG 1.1 lw 58 567.94 537.28 567.94 m S
+0.847 0.780 0.647 RG 0.6 lw 58 565.54 537.28 565.54 m S
+BT 0.541 0.200 0.141 rg /F5 11 Tf 1 0 0 1 58.00 547.54 Tm (01) Tj ET
+BT 0.200 0.153 0.102 rg /F2 17 Tf 1 0 0 1 92.00 546.54 Tm (Overview) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 520.00 Tm (The Study Almanac lets a user sign up with an email, fill a short study brief \(subject, exam date, hours) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 504.63 Tm (per week, prior knowledge\), watch a live fuzzy-inference preview as they type, and compose a) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 489.26 Tm (week-by-week study plan that is filed under their own account.) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 467.89 Tm (Two engines cooperate: a 13-rule Mamdani fuzzy-logic system decides intensity, review cadence and) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 452.52 Tm (sitting length from the brief, and a large language model writes the actual week-by-week sessions from) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 437.15 Tm (that verdict. If the model is unavailable or its answer cannot be parsed, a deterministic composer) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 421.78 Tm (produces a complete plan from the same fuzzy verdict - the app never fails open.) Tj ET
+0.847 0.780 0.647 RG 1.1 lw 58 402.35 537.28 402.35 m S
+0.847 0.780 0.647 RG 0.6 lw 58 399.95 537.28 399.95 m S
+BT 0.541 0.200 0.141 rg /F5 11 Tf 1 0 0 1 58.00 381.95 Tm (02) Tj ET
+BT 0.200 0.153 0.102 rg /F2 17 Tf 1 0 0 1 92.00 380.95 Tm (Features) Tj ET
+0.659 0.510 0.235 rg 64.00 357.50 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F2 10.4 Tf 1 0 0 1 78.00 354.59 Tm (Email sign-in only. Six-digit email OTP via Convex Auth. One method, exactly as specified for) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 339.51 Tm (version 1.) Tj ET
+0.659 0.510 0.235 rg 64.00 324.34 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F2 10.4 Tf 1 0 0 1 78.00 321.43 Tm (Live fuzzy inference. Fuzzification chips, three defuzzified gauges, sitting estimate, and a full) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 306.35 Tm (rule trace with membership strengths \(mu\) - recomputed on every slider move.) Tj ET
+0.659 0.510 0.235 rg 64.00 291.18 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F2 10.4 Tf 1 0 0 1 78.00 288.27 Tm (AI plan composition. A Convex node action sends the brief plus the fuzzy verdict to an LLM,) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 273.19 Tm (which writes titles, focus lines, sessions \(day / minutes / kind\) and checkpoint milestones.) Tj ET
+0.659 0.510 0.235 rg 64.00 258.02 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F2 10.4 Tf 1 0 0 1 78.00 255.11 Tm (Guaranteed fallback. If no AI key exists or the model misbehaves, the deterministic Almanac) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 240.03 Tm (engine composes the plan from the same verdict. No placeholder states.) Tj ET
+0.659 0.510 0.235 rg 64.00 224.86 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F2 10.4 Tf 1 0 0 1 78.00 221.95 Tm (Filed archive. Every plan is saved with ownership checks; reopen or withdraw past folios at any) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 206.87 Tm (time.) Tj ET
+0.659 0.510 0.235 rg 64.00 191.70 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F2 10.4 Tf 1 0 0 1 78.00 188.79 Tm (Print-friendly folios. Navigation chrome is excluded from print; a plan prints cleanly as a study) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 173.71 Tm (document.) Tj ET
+0.847 0.780 0.647 RG 1.1 lw 58 153.39 537.28 153.39 m S
+0.847 0.780 0.647 RG 0.6 lw 58 150.99 537.28 150.99 m S
+BT 0.541 0.200 0.141 rg /F5 11 Tf 1 0 0 1 58.00 132.99 Tm (03) Tj ET
+BT 0.200 0.153 0.102 rg /F2 17 Tf 1 0 0 1 92.00 131.99 Tm (Architecture and pipeline) Tj ET
+0.847 0.780 0.647 RG 0.8 lw 58 48 537.28 48 m S
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 58 32 Tm (THE STUDY ALMANAC - DOCUMENTATION - V1.0) Tj ET
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 492.28 32 Tm (PAGE 1 / 8) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 7146 >>
+stream
+bg 0.973 0.949 0.890 rg 0 0 595.28 841.89 re f
+0.941 0.902 0.824 rg 58.00 577.29 479.28 200.60 re f
+0.847 0.780 0.647 RG 0.8 lw 58.00 577.29 479.28 200.60 re S
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 759.29 Tm (brief \(subject, date, hours, knowledge\)) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 746.39 Tm (     |) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 733.49 Tm (     v) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 720.59 Tm (  infer\(\)  .  src/lib/fuzzy.ts     <- runs in-browser \(live\) and in Convex) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 707.69 Tm (  fuzzify -> 13 rules \(min\) -> aggregate \(max\) -> centroid -> 3 outputs) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 694.79 Tm (     |) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 681.89 Tm (     v) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 668.99 Tm (  generatePlan action . src/convex/generatePlan.ts) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 656.09 Tm (  +- platform AI integration \(auto-configured key\) -> LLM writes the weeks) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 643.19 Tm (  +- else OPENAI_API_KEY / OPENAI_BASE_URL set -> direct compatible request) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 630.29 Tm (  +- otherwise / on error -> buildAlmanacPlan\(\)  \(src/lib/compose.ts\)) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 617.39 Tm (     |) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 604.49 Tm (     v) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 591.59 Tm (  savePlan mutation -> `plans` table -> folio display + archive) Tj ET
+0.941 0.902 0.824 rg 58.00 540.04 479.28 25.25 re f
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 64.00 550.46 Tm (Layer) Tj ET
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 226.96 550.46 Tm (Technology) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 540.04 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 540.04 220.96 565.29 m S
+0.984 0.969 0.925 rg 58.00 497.55 479.28 38.50 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 521.21 Tm (Frontend) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 521.21 Tm (React 19, Vite 7, TypeScript, Tailwind CSS 4, shadcn/ui, Framer) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 507.96 Tm (Motion, React Router) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 497.55 479.28 38.50 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 497.55 220.96 536.04 m S
+0.984 0.969 0.925 rg 58.00 468.30 479.28 25.25 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 478.71 Tm (Backend and database) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 478.71 Tm (Convex - schema, reactive queries, mutations, "use node" actions) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 468.30 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 468.30 220.96 493.55 m S
+0.984 0.969 0.925 rg 58.00 425.80 479.28 38.50 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 449.47 Tm (Authentication) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 449.47 Tm (Convex Auth with an email OTP provider \(six-digit code, 15-minute) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 436.22 Tm (expiry\)) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 425.80 479.28 38.50 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 425.80 220.96 464.30 m S
+0.984 0.969 0.925 rg 58.00 383.31 479.28 38.50 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 406.97 Tm (Reasoning) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 406.97 Tm (Mamdani fuzzy inference \(src/lib/fuzzy.ts\) + LLM composition with) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 393.72 Tm (deterministic fallback) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 383.31 479.28 38.50 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 383.31 220.96 421.80 m S
+0.984 0.969 0.925 rg 58.00 354.06 479.28 25.25 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 364.47 Tm (Tooling) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 364.47 Tm (Bun package manager, ESLint, Prettier) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 354.06 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 354.06 220.96 379.31 m S
+0.847 0.780 0.647 RG 1.1 lw 58 336.46 537.28 336.46 m S
+0.847 0.780 0.647 RG 0.6 lw 58 334.06 537.28 334.06 m S
+BT 0.541 0.200 0.141 rg /F5 11 Tf 1 0 0 1 58.00 316.06 Tm (04) Tj ET
+BT 0.200 0.153 0.102 rg /F2 17 Tf 1 0 0 1 92.00 315.06 Tm (The fuzzy-logic engine) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 288.52 Tm (Inputs are fuzzified with triangular and trapezoidal membership functions, fired through 13 hand-written) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 273.15 Tm (linguistic rules using min-implication, aggregated with max, and defuzzified by centroid over 0-100) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 257.78 Tm (universes.) Tj ET
+0.941 0.902 0.824 rg 58.00 220.70 479.28 25.25 re f
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 64.00 231.12 Tm (Input) Tj ET
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 226.96 231.12 Tm (Linguistic terms) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 220.70 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 220.70 220.96 245.95 m S
+0.984 0.969 0.925 rg 58.00 191.45 479.28 25.25 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 201.87 Tm (Hours per week \(1-60\)) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 201.87 Tm (scarce / moderate / ample) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 191.45 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 191.45 220.96 216.70 m S
+0.984 0.969 0.925 rg 58.00 162.20 479.28 25.25 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 172.62 Tm (Days until exam \(1-365\)) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 172.62 Tm (urgent / near / distant) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 162.20 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 162.20 220.96 187.45 m S
+0.984 0.969 0.925 rg 58.00 132.96 479.28 25.25 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 143.37 Tm (Prior knowledge \(0-10\)) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 143.37 Tm (weak / working / strong) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 132.96 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 132.96 220.96 158.20 m S
+0.941 0.902 0.824 rg 58.00 97.71 479.28 25.25 re f
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 64.00 108.12 Tm (Output \(0-100 universe\)) Tj ET
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 226.96 108.12 Tm (Linguistic terms) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 97.71 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 97.71 220.96 122.96 m S
+0.984 0.969 0.925 rg 58.00 68.46 479.28 25.25 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 78.88 Tm (Intensity) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 78.88 Tm (gentle / steady / rigorous) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 68.46 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 68.46 220.96 93.71 m S
+0.847 0.780 0.647 RG 0.8 lw 58 48 537.28 48 m S
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 58 32 Tm (THE STUDY ALMANAC - DOCUMENTATION - V1.0) Tj ET
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 492.28 32 Tm (PAGE 2 / 8) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 270 >>
+stream
+bg 0.973 0.949 0.890 rg 0 0 595.28 841.89 re f
+0.847 0.780 0.647 RG 0.8 lw 58 48 537.28 48 m S
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 58 32 Tm (THE STUDY ALMANAC - DOCUMENTATION - V1.0) Tj ET
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 492.28 32 Tm (PAGE 3 / 8) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 6106 >>
+stream
+bg 0.973 0.949 0.890 rg 0 0 595.28 841.89 re f
+0.941 0.902 0.824 rg 58.00 752.64 479.28 25.25 re f
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 64.00 763.06 Tm (Output \(0-100 universe\)) Tj ET
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 226.96 763.06 Tm (Linguistic terms) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 752.64 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 752.64 220.96 777.89 m S
+0.984 0.969 0.925 rg 58.00 727.39 479.28 25.25 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 737.81 Tm (Review cadence) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 737.81 Tm (rare / weekly / dense) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 727.39 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 727.39 220.96 752.64 m S
+0.984 0.969 0.925 rg 58.00 698.15 479.28 25.25 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 708.56 Tm (Session length) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 708.56 Tm (short / medium / long -> crisp minutes \(20-90\)) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 698.15 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 698.15 220.96 723.39 m S
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 678.61 Tm (Example rule: IF hours = moderate AND exam = near AND knowledge = working THEN intensity =) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 663.24 Tm (steady, cadence = weekly, session = medium.) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 641.87 Tm (The exact same infer\(\) function runs in the browser for the live preview and inside the Convex action for) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 626.50 Tm (the authoritative plan, so what the user sees while dragging the sliders is exactly what gets filed.) Tj ET
+0.847 0.780 0.647 RG 1.1 lw 58 607.07 537.28 607.07 m S
+0.847 0.780 0.647 RG 0.6 lw 58 604.67 537.28 604.67 m S
+BT 0.541 0.200 0.141 rg /F5 11 Tf 1 0 0 1 58.00 586.67 Tm (05) Tj ET
+BT 0.200 0.153 0.102 rg /F2 17 Tf 1 0 0 1 92.00 585.67 Tm (AI composition and fallback) Tj ET
+0.659 0.510 0.235 rg 64.00 562.22 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 559.31 Tm (The compose action builds a strict JSON prompt: exact week count, session count, session minutes,) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 544.23 Tm (and the fuzzy verdict.) Tj ET
+0.659 0.510 0.235 rg 64.00 529.06 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 526.15 Tm (The model's response is structurally sanitised: exact week count, sessions-per-week bounds,) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 511.07 Tm (minutes clamped to 10-180, session kinds whitelisted to study / practice / review / mock, string) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 495.99 Tm (length caps.) Tj ET
+0.659 0.510 0.235 rg 64.00 480.82 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 477.91 Tm (Any failure \(no key, timeout, unparseable JSON\) falls back to the deterministic engine; the folio is) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 462.83 Tm (stamped "LLM" or "Almanac engine" accordingly.) Tj ET
+0.659 0.510 0.235 rg 64.00 447.66 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 444.75 Tm (Keys are read server-side only, inside the "use node" action via process.env - they are never) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 429.67 Tm (shipped to the client.) Tj ET
+0.941 0.902 0.824 rg 58.00 319.55 479.28 97.40 re f
+0.847 0.780 0.647 RG 0.8 lw 58.00 319.55 479.28 97.40 re S
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 398.35 Tm (LLM path tried in order:) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 385.45 Tm (  1. platform AI integration \(VLY_INTEGRATION_KEY, pre-configured\)) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 372.55 Tm (  2. direct OpenAI-compatible endpoint \(OPENAI_API_KEY + optional) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 359.65 Tm (     OPENAI_BASE_URL / OPENAI_MODEL, default gpt-4o-mini\)) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 346.75 Tm (  3. deterministic Almanac engine \(foundation -> build -> taper phases,) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 333.85 Tm (     final sitting always a full rehearsal\)) Tj ET
+0.847 0.780 0.647 RG 1.1 lw 58 299.95 537.28 299.95 m S
+0.847 0.780 0.647 RG 0.6 lw 58 297.55 537.28 297.55 m S
+BT 0.541 0.200 0.141 rg /F5 11 Tf 1 0 0 1 58.00 279.55 Tm (06) Tj ET
+BT 0.200 0.153 0.102 rg /F2 17 Tf 1 0 0 1 92.00 278.55 Tm (Authentication) Tj ET
+0.659 0.510 0.235 rg 64.00 255.10 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 252.19 Tm (Email OTP only \(six-digit key, 15-minute validity\) via Convex Auth - the sole sign-in method in) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 237.11 Tm (version 1.) Tj ET
+0.659 0.510 0.235 rg 64.00 221.94 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 219.03 Tm (Signed-out visitors hitting a protected route see an explanation and are sent to /auth?returnTo=...;) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 203.95 Tm (after sign-in they return to the intended page.) Tj ET
+0.659 0.510 0.235 rg 64.00 188.78 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 185.87 Tm (/dashboard is wrapped in RequireAuth; sign-in redirects to /dashboard.) Tj ET
+0.659 0.510 0.235 rg 64.00 170.70 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 167.79 Tm (Plan mutations enforce ownership server-side: savePlan, listMine and remove all resolve the) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 152.71 Tm (signed-in user's ID.) Tj ET
+0.847 0.780 0.647 RG 1.1 lw 58 132.39 537.28 132.39 m S
+0.847 0.780 0.647 RG 0.6 lw 58 129.99 537.28 129.99 m S
+BT 0.541 0.200 0.141 rg /F5 11 Tf 1 0 0 1 58.00 111.99 Tm (07) Tj ET
+BT 0.200 0.153 0.102 rg /F2 17 Tf 1 0 0 1 92.00 110.99 Tm (Data model) Tj ET
+0.847 0.780 0.647 RG 0.8 lw 58 48 537.28 48 m S
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 58 32 Tm (THE STUDY ALMANAC - DOCUMENTATION - V1.0) Tj ET
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 492.28 32 Tm (PAGE 4 / 8) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 7601 >>
+stream
+bg 0.973 0.949 0.890 rg 0 0 595.28 841.89 re f
+0.941 0.902 0.824 rg 58.00 590.19 479.28 187.70 re f
+0.847 0.780 0.647 RG 0.8 lw 58.00 590.19 479.28 187.70 re S
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 759.29 Tm (plans) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 746.39 Tm (  userId       Id<"users">       \(index: by_user\)) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 733.49 Tm (  inputs       { subject, examDate, hoursPerWeek, priorKnowledge,) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 720.59 Tm (                 daysUntilExam, notes? }) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 707.69 Tm (  fuzzy        { intensity, cadence, session, sessionMinutes,) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 694.79 Tm (                 labels{intensity,cadence,session}, trace[{text,strength}] }) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 681.89 Tm (  weeks[]      { index, title, focus,) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 668.99 Tm (                 sessions[{ day, task, minutes, kind }], milestone }) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 656.09 Tm (  composedBy   "llm" | "almanac") Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 643.19 Tm (  createdAt    number) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 630.29 Tm () Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 617.39 Tm (users  \(Convex Auth\)  name?, image?, email?, emailVerificationTime?,) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 604.49 Tm (                      isAnonymous?, role?        \(index: email\)) Tj ET
+0.847 0.780 0.647 RG 1.1 lw 58 570.59 537.28 570.59 m S
+0.847 0.780 0.647 RG 0.6 lw 58 568.19 537.28 568.19 m S
+BT 0.541 0.200 0.141 rg /F5 11 Tf 1 0 0 1 58.00 550.19 Tm (08) Tj ET
+BT 0.200 0.153 0.102 rg /F2 17 Tf 1 0 0 1 92.00 549.19 Tm (Local setup) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 522.65 Tm (Requirements: Bun \(https://bun.sh\) and a Convex project - the template ships configured.) Tj ET
+0.941 0.902 0.824 rg 58.00 452.12 479.28 58.70 re f
+0.847 0.780 0.647 RG 0.8 lw 58.00 452.12 479.28 58.70 re S
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 492.22 Tm (bun install          # install dependencies) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 479.32 Tm (bun convex dev       # start Convex + codegen, then in another terminal:) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 466.42 Tm (bun run dev          # start the Vite dev server) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.6 Tf 1 0 0 1 58.00 430.58 Tm (Routes: / landing page /auth sign-in /dashboard protected workspace.) Tj ET
+0.847 0.780 0.647 RG 1.1 lw 58 411.15 537.28 411.15 m S
+0.847 0.780 0.647 RG 0.6 lw 58 408.75 537.28 408.75 m S
+BT 0.541 0.200 0.141 rg /F5 11 Tf 1 0 0 1 58.00 390.75 Tm (09) Tj ET
+BT 0.200 0.153 0.102 rg /F2 17 Tf 1 0 0 1 92.00 389.75 Tm (Environment variables) Tj ET
+0.941 0.902 0.824 rg 58.00 347.50 479.28 25.25 re f
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 64.00 357.92 Tm (Variable) Tj ET
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 193.41 357.92 Tm (Where) Tj ET
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 322.81 357.92 Tm (Req.) Tj ET
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 365.95 357.92 Tm (Purpose) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 347.50 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 187.41 347.50 187.41 372.75 m S
+0.847 0.780 0.647 RG 0.7 lw 316.81 347.50 316.81 372.75 m S
+0.847 0.780 0.647 RG 0.7 lw 359.95 347.50 359.95 372.75 m S
+0.984 0.969 0.925 rg 58.00 318.25 479.28 25.25 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 328.67 Tm (VITE_CONVEX_URL) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 193.41 328.67 Tm (.env.local \(platform-set\)) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 322.81 328.67 Tm (yes) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 365.95 328.67 Tm (Convex client URL) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 318.25 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 187.41 318.25 187.41 343.50 m S
+0.847 0.780 0.647 RG 0.7 lw 316.81 318.25 316.81 343.50 m S
+0.847 0.780 0.647 RG 0.7 lw 359.95 318.25 359.95 343.50 m S
+0.984 0.969 0.925 rg 58.00 275.76 479.28 38.50 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 299.42 Tm (VLY_INTEGRATION_KEY) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 193.41 299.42 Tm (set at project creation) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 322.81 299.42 Tm (yes) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 365.95 299.42 Tm (Platform AI integration for LLM) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 365.95 286.17 Tm (composition) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 275.76 479.28 38.50 re S
+0.847 0.780 0.647 RG 0.7 lw 187.41 275.76 187.41 314.25 m S
+0.847 0.780 0.647 RG 0.7 lw 316.81 275.76 316.81 314.25 m S
+0.847 0.780 0.647 RG 0.7 lw 359.95 275.76 359.95 314.25 m S
+0.984 0.969 0.925 rg 58.00 233.26 479.28 38.50 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 256.93 Tm (OPENAI_API_KEY) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 193.41 256.93 Tm (Convex deployment env) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 322.81 256.93 Tm (no) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 365.95 256.93 Tm (Optional own OpenAI-compatible) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 365.95 243.68 Tm (endpoint) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 233.26 479.28 38.50 re S
+0.847 0.780 0.647 RG 0.7 lw 187.41 233.26 187.41 271.76 m S
+0.847 0.780 0.647 RG 0.7 lw 316.81 233.26 316.81 271.76 m S
+0.847 0.780 0.647 RG 0.7 lw 359.95 233.26 359.95 271.76 m S
+0.984 0.969 0.925 rg 58.00 190.77 479.28 38.50 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 214.43 Tm (OPENAI_BASE_URL) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 193.41 214.43 Tm (Convex deployment env) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 322.81 214.43 Tm (no) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 365.95 214.43 Tm (Custom base URL \(default) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 365.95 201.18 Tm (api.openai.com/v1\)) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 190.77 479.28 38.50 re S
+0.847 0.780 0.647 RG 0.7 lw 187.41 190.77 187.41 229.26 m S
+0.847 0.780 0.647 RG 0.7 lw 316.81 190.77 316.81 229.26 m S
+0.847 0.780 0.647 RG 0.7 lw 359.95 190.77 359.95 229.26 m S
+0.984 0.969 0.925 rg 58.00 161.52 479.28 25.25 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 171.93 Tm (OPENAI_MODEL) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 193.41 171.93 Tm (Convex deployment env) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 322.81 171.93 Tm (no) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 365.95 171.93 Tm (Model id \(default gpt-4o-mini\)) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 161.52 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 187.41 161.52 187.41 186.77 m S
+0.847 0.780 0.647 RG 0.7 lw 316.81 161.52 316.81 186.77 m S
+0.847 0.780 0.647 RG 0.7 lw 359.95 161.52 359.95 186.77 m S
+0.659 0.510 0.235 rg 58.00 103.94 3.00 47.58 re f
+0.957 0.925 0.855 rg 61.00 103.94 476.28 47.58 re f
+BT 0.200 0.153 0.102 rg /F3 10.2 Tf 1 0 0 1 74.00 130.34 Tm (LLM composition works out of the box via the platform integration. If every AI path fails the app still) Tj ET
+BT 0.200 0.153 0.102 rg /F3 10.2 Tf 1 0 0 1 74.00 115.55 Tm (works end-to-end - plans are composed by the deterministic Almanac engine and stamped accordingly.) Tj ET
+0.847 0.780 0.647 RG 0.8 lw 58 48 537.28 48 m S
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 58 32 Tm (THE STUDY ALMANAC - DOCUMENTATION - V1.0) Tj ET
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 492.28 32 Tm (PAGE 5 / 8) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 4888 >>
+stream
+bg 0.973 0.949 0.890 rg 0 0 595.28 841.89 re f
+0.847 0.780 0.647 RG 1.1 lw 58 770.29 537.28 770.29 m S
+0.847 0.780 0.647 RG 0.6 lw 58 767.89 537.28 767.89 m S
+BT 0.541 0.200 0.141 rg /F5 11 Tf 1 0 0 1 58.00 749.89 Tm (10) Tj ET
+BT 0.200 0.153 0.102 rg /F2 17 Tf 1 0 0 1 92.00 748.89 Tm (Deployment) Tj ET
+0.659 0.510 0.235 rg 64.00 725.44 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F2 10.4 Tf 1 0 0 1 78.00 722.53 Tm (Backend: bun convex deploy pushes functions and schema; set any optional OPENAI_* variables) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 707.45 Tm (in the deployment environment.) Tj ET
+0.659 0.510 0.235 rg 64.00 692.28 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F2 10.4 Tf 1 0 0 1 78.00 689.37 Tm (Frontend: bun run build outputs dist/ - host on any static provider \(Render, Netlify, Vercel,) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 674.29 Tm (GitHub Pages\) with VITE_CONVEX_URL pointing at the deployed Convex deployment. Configure) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 659.21 Tm (an SPA rewrite of all routes to /index.html.) Tj ET
+0.659 0.510 0.235 rg 64.00 644.04 3.20 3.20 re f
+BT 0.200 0.153 0.102 rg /F2 10.4 Tf 1 0 0 1 78.00 641.13 Tm (Live demo: the hosted Freebuff preview of this project is the live demo - sign in at /auth and) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.4 Tf 1 0 0 1 78.00 626.05 Tm (compose a plan at /dashboard immediately.) Tj ET
+0.541 0.200 0.141 rg 58.00 550.96 3.00 62.37 re f
+0.949 0.898 0.867 rg 61.00 550.96 476.28 62.37 re f
+BT 0.200 0.153 0.102 rg /F1 10.2 Tf 1 0 0 1 74.00 592.15 Tm (Streamlit Community Cloud and Hugging Face Spaces host Python / Streamlit / Gradio apps and) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.2 Tf 1 0 0 1 74.00 577.36 Tm (cannot run this Vite + Convex stack. The correct free hosts are the built-in live preview \(demo\) and) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.2 Tf 1 0 0 1 74.00 562.57 Tm (Render / Netlify / Vercel-style static hosts \(production\), with Convex as the backend.) Tj ET
+0.847 0.780 0.647 RG 1.1 lw 58 531.36 537.28 531.36 m S
+0.847 0.780 0.647 RG 0.6 lw 58 528.96 537.28 528.96 m S
+BT 0.541 0.200 0.141 rg /F5 11 Tf 1 0 0 1 58.00 510.96 Tm (11) Tj ET
+BT 0.200 0.153 0.102 rg /F2 17 Tf 1 0 0 1 92.00 509.96 Tm (Scripts and checks) Tj ET
+0.941 0.902 0.824 rg 58.00 467.71 479.28 25.25 re f
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 64.00 478.13 Tm (Command) Tj ET
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 226.96 478.13 Tm (Purpose) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 467.71 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 467.71 220.96 492.96 m S
+0.984 0.969 0.925 rg 58.00 438.46 479.28 25.25 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 448.88 Tm (bun run dev) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 448.88 Tm (Vite dev server) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 438.46 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 438.46 220.96 463.71 m S
+0.984 0.969 0.925 rg 58.00 409.22 479.28 25.25 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 419.63 Tm (bun run build) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 419.63 Tm (Typecheck + production build -> dist/) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 409.22 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 409.22 220.96 434.46 m S
+0.984 0.969 0.925 rg 58.00 379.97 479.28 25.25 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 390.38 Tm (bun run lint) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 390.38 Tm (ESLint) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 379.97 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 379.97 220.96 405.22 m S
+0.984 0.969 0.925 rg 58.00 350.72 479.28 25.25 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 361.14 Tm (bun run format) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 361.14 Tm (Prettier) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 350.72 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 350.72 220.96 375.97 m S
+0.984 0.969 0.925 rg 58.00 308.22 479.28 38.50 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 331.89 Tm (bun convex dev --once && bun tsc -b) Tj ET
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 318.64 Tm (--noEmit) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 331.89 Tm (Convex codegen + TypeScript typecheck) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 308.22 479.28 38.50 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 308.22 220.96 346.72 m S
+0.847 0.780 0.647 RG 1.1 lw 58 290.62 537.28 290.62 m S
+0.847 0.780 0.647 RG 0.6 lw 58 288.22 537.28 288.22 m S
+BT 0.541 0.200 0.141 rg /F5 11 Tf 1 0 0 1 58.00 270.22 Tm (12) Tj ET
+BT 0.200 0.153 0.102 rg /F2 17 Tf 1 0 0 1 92.00 269.22 Tm (Project structure) Tj ET
+0.847 0.780 0.647 RG 0.8 lw 58 48 537.28 48 m S
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 58 32 Tm (THE STUDY ALMANAC - DOCUMENTATION - V1.0) Tj ET
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 492.28 32 Tm (PAGE 6 / 8) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 6704 >>
+stream
+bg 0.973 0.949 0.890 rg 0 0 595.28 841.89 re f
+0.941 0.902 0.824 rg 58.00 435.39 479.28 342.50 re f
+0.847 0.780 0.647 RG 0.8 lw 58.00 435.39 479.28 342.50 re S
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 759.29 Tm (src/) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 746.39 Tm (  lib/) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 733.49 Tm (    fuzzy.ts         # Mamdani engine \(MFs, 13 rules, centroid\)) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 720.59 Tm (    compose.ts       # Deterministic Almanac composer + date helpers) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 707.69 Tm (    plan.ts          # Shared plan types + summarize\(\)) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 694.79 Tm (    validators.ts    # Convex validators mirroring the plan types) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 681.89 Tm (  convex/) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 668.99 Tm (    schema.ts        # auth tables + plans \(indexed by user\)) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 656.09 Tm (    plans.ts         # savePlan / listMine / remove \(ownership enforced\)) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 643.19 Tm (    generatePlan.ts  # "use node" action: verdict -> LLM or fallback) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 630.29 Tm (  components/) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 617.39 Tm (    StudyPlanForm.tsx     # intake brief) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 604.49 Tm (    InferenceLedger.tsx   # live fuzzification / gauges / rule trace) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 591.59 Tm (    PlanFolio.tsx         # folio header + week cards \(print-friendly\)) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 578.69 Tm (    vintage.tsx           # archival primitives \(rules, stamps, gauges\)) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 565.79 Tm (    RequireAuth.tsx       # protected-route wrapper with returnTo) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 552.89 Tm (  pages/) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 539.99 Tm (    Landing.tsx      # hero, method, contents, specimen, CTA) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 527.09 Tm (    Dashboard.tsx    # protected workspace: form + ledger + archive) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 514.19 Tm (    Auth.tsx         # email OTP sign-in) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 501.29 Tm (index.html           # fonts + title) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 488.39 Tm (src/index.css        # vintage theme tokens + paper grain) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 475.49 Tm (README.md            # full setup / deployment instructions) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 462.59 Tm (docs/documentation.html   # print-ready HTML documentation) Tj ET
+BT 0.200 0.153 0.102 rg /F4 8.6 Tf 1 0 0 1 68.00 449.69 Tm (docs/documentation.pdf    # this document) Tj ET
+0.847 0.780 0.647 RG 1.1 lw 58 415.79 537.28 415.79 m S
+0.847 0.780 0.647 RG 0.6 lw 58 413.39 537.28 413.39 m S
+BT 0.541 0.200 0.141 rg /F5 11 Tf 1 0 0 1 58.00 395.39 Tm (13) Tj ET
+BT 0.200 0.153 0.102 rg /F2 17 Tf 1 0 0 1 92.00 394.39 Tm (Deliverables and links) Tj ET
+0.941 0.902 0.824 rg 58.00 352.14 479.28 25.25 re f
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 64.00 362.56 Tm (Deliverable) Tj ET
+BT 0.200 0.153 0.102 rg /F5 9.6 Tf 1 0 0 1 226.96 362.56 Tm (Location) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 352.14 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 352.14 220.96 377.39 m S
+0.984 0.969 0.925 rg 58.00 309.65 479.28 38.50 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 333.31 Tm (Complete source code) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 333.31 Tm (This repository - export via the Freebuff / Vly project UI \(version) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 320.06 Tm (control is managed by the platform\)) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 309.65 479.28 38.50 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 309.65 220.96 348.14 m S
+0.984 0.969 0.925 rg 58.00 267.15 479.28 38.50 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 290.81 Tm (GitHub repository) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 290.81 Tm (github.com/sagar777-sys - create the repo, then push this source \(see) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 277.57 Tm (README\)) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 267.15 479.28 38.50 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 267.15 220.96 305.65 m S
+0.984 0.969 0.925 rg 58.00 224.65 479.28 38.50 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 248.32 Tm (Live demo link) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 248.32 Tm (The hosted Freebuff preview of this project - publish via) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 235.07 Tm (freebuff.com/project/<name>?publish=true for a stable URL) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 224.65 479.28 38.50 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 224.65 220.96 263.15 m S
+0.984 0.969 0.925 rg 58.00 182.16 479.28 38.50 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 205.82 Tm (Documentation PDF) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 205.82 Tm (docs/documentation.pdf \(this file\). Regenerate with: node) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 192.57 Tm (docs/generate-pdf.mjs) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 182.16 479.28 38.50 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 182.16 220.96 220.65 m S
+0.984 0.969 0.925 rg 58.00 139.66 479.28 38.50 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 163.33 Tm (Documentation source) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 163.33 Tm (docs/documentation.html - open in a browser and use Print / Save as) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 150.08 Tm (PDF) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 139.66 479.28 38.50 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 139.66 220.96 178.16 m S
+0.984 0.969 0.925 rg 58.00 110.41 479.28 25.25 re f
+BT 0.541 0.200 0.141 rg /F4 9.6 Tf 1 0 0 1 64.00 120.83 Tm (Setup instructions) Tj ET
+BT 0.200 0.153 0.102 rg /F1 9.6 Tf 1 0 0 1 226.96 120.83 Tm (README.md and sections 08-10 of this document) Tj ET
+0.847 0.780 0.647 RG 0.7 lw 58.00 110.41 479.28 25.25 re S
+0.847 0.780 0.647 RG 0.7 lw 220.96 110.41 220.96 135.66 m S
+0.847 0.780 0.647 RG 0.8 lw 58 48 537.28 48 m S
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 58 32 Tm (THE STUDY ALMANAC - DOCUMENTATION - V1.0) Tj ET
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 492.28 32 Tm (PAGE 7 / 8) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 857 >>
+stream
+bg 0.973 0.949 0.890 rg 0 0 595.28 841.89 re f
+0.541 0.200 0.141 rg 58.00 715.52 3.00 62.37 re f
+0.949 0.898 0.867 rg 61.00 715.52 476.28 62.37 re f
+BT 0.200 0.153 0.102 rg /F1 10.2 Tf 1 0 0 1 74.00 756.71 Tm (Security note: never share account passwords in chat or commit them to a repository. Rotate any) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.2 Tf 1 0 0 1 74.00 741.92 Tm (credential that has been exposed, store secrets in a password manager, and enable two-factor) Tj ET
+BT 0.200 0.153 0.102 rg /F1 10.2 Tf 1 0 0 1 74.00 727.13 Tm (authentication. No proprietary libraries, keys, or secrets are embedded in this repository.) Tj ET
+0.847 0.780 0.647 RG 0.8 lw 58 48 537.28 48 m S
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 58 32 Tm (THE STUDY ALMANAC - DOCUMENTATION - V1.0) Tj ET
+BT 0.427 0.365 0.271 rg /F4 7.5 Tf 1 0 0 1 492.28 32 Tm (PAGE 8 / 8) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R /F5 7 0 R >> >> /Contents 22 0 R >>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000170 00000 n 
+0000000269 00000 n 
+0000000367 00000 n 
+0000000467 00000 n 
+0000000562 00000 n 
+0000000662 00000 n 
+0000005916 00000 n 
+0000006088 00000 n 
+0000013287 00000 n 
+0000013461 00000 n 
+0000013783 00000 n 
+0000013957 00000 n 
+0000020116 00000 n 
+0000020290 00000 n 
+0000027944 00000 n 
+0000028118 00000 n 
+0000033059 00000 n 
+0000033233 00000 n 
+0000039990 00000 n 
+0000040164 00000 n 
+0000041073 00000 n 
+trailer
+<< /Size 24 /Root 1 0 R >>
+startxref
+41247
+%%EOF

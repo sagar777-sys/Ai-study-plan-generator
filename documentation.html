@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Study Almanac — Documentation (PDF)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --paper: #f8f2e3;
+    --paper-2: #f0e6d2;
+    --ink: #33271a;
+    --muted: #6d5d45;
+    --rule: #d8c7a5;
+    --primary: #8a3324;
+    --gold: #a8823c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper-2);
+    color: var(--ink);
+    font-family: "EB Garamond", Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+  .sheet {
+    max-width: 860px;
+    margin: 32px auto;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    padding: 56px 64px;
+    box-shadow: 6px 8px 0 rgba(61, 47, 31, 0.08);
+  }
+  .mono { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+  .eyebrow {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0;
+  }
+  h1, h2, h3 { font-family: "Playfair Display", Georgia, serif; font-weight: 700; letter-spacing: -0.01em; }
+  h1 { font-size: 44px; line-height: 1.1; margin: 8px 0 10px; }
+  h2 { font-size: 26px; margin: 44px 0 4px; border-top: 3px double var(--rule); padding-top: 28px; }
+  h2 .no { font-family: "IBM Plex Mono", monospace; font-size: 14px; color: var(--primary); margin-right: 10px; }
+  h3 { font-size: 19px; margin: 26px 0 6px; }
+  p, li { color: var(--ink); }
+  .lede { font-size: 19px; font-style: italic; color: var(--muted); max-width: 62ch; }
+  .meta { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--muted); letter-spacing: 0.06em; margin-top: 18px; }
+  code, pre { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; }
+  code { background: rgba(168,130,60,0.14); border: 1px solid var(--rule); border-radius: 3px; padding: 1px 5px; }
+  pre { background: var(--paper-2); border: 1px solid var(--rule); border-radius: 4px; padding: 16px 18px; overflow-x: auto; line-height: 1.55; white-space: pre-wrap; }
+  pre code { background: none; border: 0; padding: 0; }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0 10px; font-size: 15px; }
+  th, td { border: 1px solid var(--rule); padding: 7px 10px; text-align: left; vertical-align: top; }
+  th { background: var(--paper-2); font-family: "IBM Plex Mono", monospace; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; }
+  .stamp {
+    display: inline-block; font-family: "IBM Plex Mono", monospace; font-size: 11px;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--primary);
+    border: 2px solid rgba(138,51,36,0.6); border-radius: 3px; padding: 3px 10px;
+    transform: rotate(-3deg); opacity: 0.9;
+  }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .card { border: 1px solid var(--rule); background: rgba(255,255,255,0.35); border-radius: 4px; padding: 14px 16px; }
+  .card h4 { font-family: "Playfair Display", serif; margin: 0 0 6px; font-size: 17px; }
+  .card p { margin: 0; font-size: 15px; color: var(--muted); }
+  a { color: var(--primary); }
+  .footer { margin-top: 48px; border-top: 3px double var(--rule); padding-top: 14px; font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--muted); letter-spacing: 0.08em; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .printbar { max-width: 860px; margin: 32px auto -12px; text-align: right; }
+  .printbar button {
+    font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;
+    background: var(--primary); color: var(--paper); border: 0; border-radius: 4px; padding: 10px 18px; cursor: pointer;
+  }
+  @media print {
+    body { background: #fff; }
+    .sheet { margin: 0; max-width: none; border: 0; box-shadow: none; padding: 0; }
+    .printbar { display: none; }
+    h2 { break-after: avoid; }
+    table, pre, .card { break-inside: avoid; }
+    @page { margin: 18mm 16mm; }
+  }
+</style>
+</head>
+<body>
+  <div class="printbar"><button onclick="window.print()">Print / Save as PDF</button></div>
+  <article class="sheet">
+    <p class="eyebrow">Documentation · Version 1.0</p>
+    <h1>The Study Almanac</h1>
+    <p class="lede">A web application that generates personalized AI study plans using fuzzy-logic reasoning and large language models — wrapped in a vintage archival interface.</p>
+    <p class="meta">STACK: REACT 19 · VITE · TYPESCRIPT · TAILWIND CSS 4 · CONVEX (DB + AUTH + ACTIONS) · BUN &nbsp;·&nbsp; SEPTEMBER 2026 <span class="stamp" style="margin-left:8px;">Vintage edition</span></p>
+
+    <h2><span class="no">01</span>Overview</h2>
+    <p>The Study Almanac lets a user sign up with an email, fill a short study brief (subject, exam date, hours per week, prior knowledge), watch a live fuzzy-inference preview as they type, and compose a week-by-week study plan that is filed under their own account.</p>
+    <p>Two engines cooperate: a <strong>13-rule Mamdani fuzzy-logic system</strong> decides <em>intensity</em>, <em>review cadence</em> and <em>sitting length</em> from the brief, and a <strong>large language model</strong> writes the actual week-by-week sessions from that verdict. If the model is unavailable or its answer cannot be parsed, a deterministic composer produces a complete plan from the same fuzzy verdict — the app never fails open.</p>
+
+    <h2><span class="no">02</span>Features</h2>
+    <div class="grid">
+      <div class="card"><h4>Email sign-in only</h4><p>Six-digit email OTP via Convex Auth. One method, exactly as specified for version 1.</p></div>
+      <div class="card"><h4>Live fuzzy inference</h4><p>Fuzzification chips, three defuzzified gauges, sitting estimate, and a full rule trace with membership strengths (μ) — recomputed on every slider move.</p></div>
+      <div class="card"><h4>AI plan composition</h4><p>A Convex node action sends the brief plus the fuzzy verdict to an LLM, which writes titles, focus lines, sessions (day/minutes/kind) and checkpoints.</p></div>
+      <div class="card"><h4>Guaranteed fallback</h4><p>If no AI key exists or the model misbehaves, the deterministic Almanac engine composes the plan from the same verdict. No placeholder states.</p></div>
+      <div class="card"><h4>Filed archive</h4><p>Every plan is saved with ownership checks; reopen or withdraw past folios at any time.</p></div>
+      <div class="card"><h4>Print-friendly folios</h4><p>Chrome is excluded from print; a plan prints cleanly as a study document.</p></div>
+    </div>
+
+    <h2><span class="no">03</span>Architecture</h2>
+<pre><code>brief (subject, date, hours, knowledge)
+        │
+        ▼
+  infer()  ·  src/lib/fuzzy.ts        ← runs in-browser (live) and in Convex (authoritative)
+  fuzzify → 13 rules (min) → aggregate (max) → centroid → intensity / cadence / session
+        │
+        ▼
+  generatePlan action · src/convex/generatePlan.ts
+  ├─ platform AI integration (auto-configured key) → LLM writes the weeks
+  ├─ else OPENAI_API_KEY / OPENAI_BASE_URL set → direct OpenAI-compatible request
+  └─ otherwise / on error → buildAlmanacPlan() (src/lib/compose.ts)
+        │
+        ▼
+  savePlan mutation → `plans` table → folio display + archive</code></pre>
+    <table>
+      <tr><th>Layer</th><th>Technology</th></tr>
+      <tr><td>Frontend</td><td>React 19, Vite 7, TypeScript, Tailwind CSS 4, shadcn/ui, Framer Motion, React Router</td></tr>
+      <tr><td>Backend &amp; database</td><td>Convex — schema, reactive queries, mutations, <code>"use node"</code> actions</td></tr>
+      <tr><td>Authentication</td><td>Convex Auth with an email OTP provider (six-digit code, 15-minute expiry)</td></tr>
+      <tr><td>Reasoning</td><td>Mamdani fuzzy inference (<code>src/lib/fuzzy.ts</code>) + LLM composition with deterministic fallback</td></tr>
+      <tr><td>Tooling</td><td>Bun package manager, ESLint, Prettier</td></tr>
+    </table>
+
+    <h2><span class="no">04</span>The fuzzy-logic engine</h2>
+    <p>Inputs are fuzzified with triangular/trapezoidal membership functions, fired through <strong>13 hand-written linguistic rules</strong> using min-implication, aggregated with max, and defuzzified by centroid over 0–100 universes.</p>
+    <table>
+      <tr><th>Input</th><th>Linguistic terms</th></tr>
+      <tr><td>Hours per week (1–60)</td><td>scarce · moderate · ample</td></tr>
+      <tr><td>Days until exam (1–365)</td><td>urgent · near · distant</td></tr>
+      <tr><td>Prior knowledge (0–10)</td><td>weak · working · strong</td></tr>
+    </table>
+    <table>
+      <tr><th>Output (0–100)</th><th>Linguistic terms</th></tr>
+      <tr><td>Intensity</td><td>gentle · steady · rigorous</td></tr>
+      <tr><td>Review cadence</td><td>rare · weekly · dense</td></tr>
+      <tr><td>Session length</td><td>short · medium · long → crisp minutes (20–90)</td></tr>
+    </table>
+    <p>Example rule: <code>IF hours = moderate AND exam = near AND knowledge = working THEN intensity = steady, cadence = weekly, session = medium</code>. The exact same <code>infer()</code> function runs in the browser for the live preview and in Convex for the authoritative plan, so the preview always matches what is filed.</p>
+
+    <h2><span class="no">05</span>AI composition</h2>
+    <ul>
+      <li>The <code>compose</code> action builds a strict JSON prompt: week count, session count, minutes, and the fuzzy verdict.</li>
+      <li>The model's response is structurally sanitised: exact week count, sessions per week bounds, minutes clamped 10–180, session kinds whitelisted to <code>study | practice | review | mock</code>, string length caps.</li>
+      <li>Any failure (no key, timeout, unparseable JSON) falls back to the deterministic engine; the folio is stamped <code>LLM</code> or <code>Almanac engine</code> accordingly.</li>
+      <li>Keys are read server-side only, inside the <code>"use node"</code> action via <code>process.env</code> — never shipped to the client.</li>
+    </ul>
+
+    <h2><span class="no">06</span>Data model</h2>
+<pre><code>plans
+  userId        Id&lt;"users"&gt;            (indexed: by_user)
+  inputs        { subject, examDate, hoursPerWeek, priorKnowledge, daysUntilExam, notes? }
+  fuzzy         { intensity, cadence, session, sessionMinutes, labels{...}, trace[] }
+  weeks[]       { index, title, focus, sessions[{ day, task, minutes, kind }], milestone }
+  composedBy    "llm" | "almanac"
+  createdAt     number</code></pre>
+    <p>Queries and mutations enforce ownership: a user can only list, open, or delete their own plans.</p>
+
+    <h2><span class="no">07</span>Local setup</h2>
+    <p>Requirements: <a href="https://bun.sh">Bun</a>, a Convex account (the template ships configured).</p>
+<pre><code>bun install          # install dependencies
+bun convex dev       # start Convex + codegen, then in another terminal:
+bun run dev          # start the Vite dev server</code></pre>
+    <p>Routes: <code>/</code> landing page · <code>/auth</code> sign-in · <code>/dashboard</code> protected workspace.</p>
+
+    <h2><span class="no">08</span>Environment variables</h2>
+    <table>
+      <tr><th>Variable</th><th>Where</th><th>Required</th><th>Purpose</th></tr>
+      <tr><td><code>VITE_CONVEX_URL</code></td><td>.env.local (platform-set)</td><td>Yes</td><td>Convex client URL</td></tr>
+      <tr><td><code>VLY_INTEGRATION_KEY</code></td><td>Set at project creation</td><td>Yes (pre-set)</td><td>Platform AI integration for LLM composition</td></tr>
+      <tr><td><code>OPENAI_API_KEY</code></td><td>Convex deployment env</td><td>No</td><td>Optional own OpenAI-compatible endpoint</td></tr>
+      <tr><td><code>OPENAI_BASE_URL</code></td><td>Convex deployment env</td><td>No</td><td>Custom base URL (default api.openai.com)</td></tr>
+      <tr><td><code>OPENAI_MODEL</code></td><td>Convex deployment env</td><td>No</td><td>Model id (default gpt-4o-mini)</td></tr>
+    </table>
+
+    <h2><span class="no">09</span>Deployment</h2>
+    <ol>
+      <li><strong>Backend:</strong> <code>bun convex deploy</code> pushes functions/schema; set optional <code>OPENAI_*</code> vars in the deployment environment if desired.</li>
+      <li><strong>Frontend:</strong> <code>bun run build</code> outputs <code>dist/</code> — host on any static provider (Render, Netlify, Vercel, GitHub Pages) with <code>VITE_CONVEX_URL</code> pointing at the deployed Convex deployment. SPA rewrite of all routes to <code>/index.html</code> required.</li>
+      <li><strong>Live demo:</strong> the hosted Freebuff preview of this project is the live demo — sign in at <code>/auth</code> and compose a plan at <code>/dashboard</code> immediately.</li>
+    </ol>
+
+    <h2><span class="no">10</span>Scripts</h2>
+    <table>
+      <tr><th>Command</th><th>Purpose</th></tr>
+      <tr><td><code>bun run dev</code></td><td>Vite dev server</td></tr>
+      <tr><td><code>bun run build</code></td><td>Typecheck + production build</td></tr>
+      <tr><td><code>bun run lint</code></td><td>ESLint</td></tr>
+      <tr><td><code>bun run format</code></td><td>Prettier</td></tr>
+      <tr><td><code>bun convex dev --once &amp;&amp; bun tsc -b --noEmit</code></td><td>Codegen + typecheck</td></tr>
+    </table>
+
+    <h2><span class="no">11</span>Project structure</h2>
+<pre><code>src/
+  lib/
+    fuzzy.ts        # Mamdani inference engine (membership fns, 13 rules, centroid)
+    compose.ts      # Deterministic Almanac composer + date/week helpers
+    plan.ts         # Shared plan types + summarize()
+    validators.ts   # Convex validators mirroring the plan types
+  convex/
+    schema.ts       # auth tables + `plans` (indexed by user)
+    plans.ts        # savePlan / listMine / remove (ownership enforced)
+    generatePlan.ts # "use node" action: fuzzy verdict → LLM (or fallback) → weeks
+  components/
+    StudyPlanForm.tsx    # intake brief
+    InferenceLedger.tsx  # live fuzzification / gauges / rule trace
+    PlanFolio.tsx        # folio header + week cards (print-friendly)
+    vintage.tsx          # shared archival primitives (rules, stamps, gauges, mark)
+  pages/
+    Landing.tsx     # hero, method, contents, specimen, CTA
+    Dashboard.tsx   # protected workspace: form + ledger + folio + archive
+    Auth.tsx        # email OTP sign-in
+index.html          # fonts + title
+src/index.css       # vintage theme tokens + paper texture + archival utilities
+docs/documentation.html   # this document
+README.md           # full setup / deployment instructions</code></pre>
+
+    <h2><span class="no">12</span>Links</h2>
+    <table>
+      <tr><th>Deliverable</th><th>Where</th></tr>
+      <tr><td>GitHub repository</td><td><a href="https://github.com/sagar777-sys">github.com/sagar777-sys</a> (create the repo, then push this source)</td></tr>
+      <tr><td>Live demo</td><td>The hosted Freebuff preview URL of this project (use the project's Share / Publish link)</td></tr>
+      <tr><td>Documentation (this file)</td><td><code>docs/documentation.html</code> — click "Print / Save as PDF" in a browser</td></tr>
+      <tr><td>Source ZIP</td><td>Download/export from the Freebuff project page; README.md is included</td></tr>
+    </table>
+
+    <div class="footer">
+      <span>THE STUDY ALMANAC · DOCUMENTATION</span>
+      <span>SET IN PLAYFAIR DISPLAY &amp; EB GARAMOND · 13-RULE MAMDANI ENGINE</span>
+      <span>MMXXVI</span>
+    </div>
+  </article>
+</body>
+</html>
